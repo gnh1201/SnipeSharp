@@ -48,6 +48,9 @@ namespace SnipeSharp.Endpoints.Models
         [JsonProperty("seats")]
         public long Seats { get; set; }
 
+        [JsonProperty("category_id")]
+        public long CategoryId { get; set; }
+
         [JsonProperty("supplier")]
         public Company Supplier { get; set; }
 
